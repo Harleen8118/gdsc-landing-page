@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Google Sans;
+  font-weight: 400;
+}
+
+header {
+  color: #868686;
+}
+
+header_logo {
+  font-size: 22px;
+}
+
+header_links {
+  font-size: 25px;
+}
+
