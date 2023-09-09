@@ -10,6 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -20,43 +21,53 @@
     </div>
     <nav class="links">
       <ul>
-        <li><a href="" class="link">Home</a></li>
-        <li><a href="" class="link">Events</a></li>
-        <li><a href="" class="link">Team</a></li>
-        <li><a href="" class="link">Alumni</a></li>
-        <li><a href="" class="link">Contact</a></li>
+        <li><a href="#" class="link">Home</a></li>
+        <li><a href="#" class="link">Events</a></li>
+        <li><a href="#" class="link">Team</a></li>
+        <li><a href="#" class="link">Alumni</a></li>
+        <li><a href="#" class="link">Contact</a></li>
       </ul>
     </nav>
   </header>
   <section id="home">
-    <h1 class="gdsc-name">Google Developer Student Clubs</>
-    <h3 class="rcoem-name">RCOEM Chapter</>
-    <img src="img/hero.png" alt="">
-    <p>Google Developer Student Clubs are community groups for college and university students interested in Google developer technologies.</p>
-    <button class="btn">Join Us</button>
-    <img src="img/chevrons.png" alt="">
+    <div class="main-heading-wrapper">
+      <img class="main-heading" src="img/Google Developer Student Clubs.png" alt="Google Developer Student Clubs">
+    </div>
+    <h3 class="rcoem-name">RCOEM Chapter
+      <h3 />
+      <img class="hero-img" src="img/hero.png" alt="">
+      <p class="gdsc-decription">Google Developer Student Clubs are community groups for college and university students
+        interested in Google developer technologies.</p>
+      <button class="btn">Join Us</button>
+      <img class="t-chevrons" src="img/chevrons.png" alt="">
+      <p class="get-to-know">Get To Know Us!</p>
   </section>
   <section id="about">
     <div class="about-container">
-      <h2 class="underline-heading blue">Our Mission</h2>
-      <div class="description-with-img right">
-        <img src="" alt="">
-        <p >Our mission involves community engagement, leadership development, building strong tech foundation, while enabling all tech enthusiasts to contribute to the global society.</p>
+      <h2 class="underline-heading accent-blue">Our Mission</h2>
+      <div class="description-with-img left">
+        <img src="img/a1.png" alt="">
+        <p class="accent-blue">Our mission involves community engagement, leadership development, building strong tech foundation, while
+          enabling all tech enthusiasts to contribute to the global society.</p>
       </div>
     </div>
     <div class="about-container">
-      <h2 class="underline-heading green">Our Perspective</h2>
-      <div class="description-with-img left">
-        <img src="" alt="">
-        <p>We’re a community-driven initiative aiming to bridge the gap between research and practice , develop evolutionary thinking and network throughout the process. We believe in connecting fellow developers , spreading stimulative ideas and working for a solution driven team.</p>
-      </div>
-    </div>  
-    <div class="about-container">
-      <h2 class="underline-heading red">What Keeps Us Going?</h2>
+      <h2 class="underline-heading accent-green">Our Perspective</h2>
       <div class="description-with-img right">
-        <img src="" alt="">
-        <p>Our club helps students to connect, learn, empower and grow. Teamwork, innovative thinking, communication, and leading with solutions is what helps us achieve new heights.
-          The entire team works in coordination, to inspire and motivate the upcoming coding community to evolve their skills and broaden their horizons of knowledge.</p>
+        <img src="img/a2.png" alt="">
+        <p class="accent-green">We’re a community-driven initiative aiming to bridge the gap between research and practice , develop
+          evolutionary thinking and network throughout the process. We believe in connecting fellow developers ,
+          spreading stimulative ideas and working for a solution driven team.</p>
+      </div>
+    </div>
+    <div class="about-container">
+      <h2 class="underline-heading accent-red">What Keeps Us Going?</h2>
+      <div class="description-with-img left">
+        <img src="img/a3.png" alt="">
+        <p class="accent-red">Our club helps students to connect, learn, empower and grow. Teamwork, innovative thinking, communication,
+          and leading with solutions is what helps us achieve new heights.
+          The entire team works in coordination, to inspire and motivate the upcoming coding community to evolve their
+          skills and broaden their horizons of knowledge.</p>
       </div>
     </div>
   </section>
@@ -64,7 +75,7 @@
   <section id="technologies">
     <div class="heading">
       <h2 class="line-heading red">Technologies</h2>
-      <p></p>
+      <p>Domains That Excite Us to Collaborate and Teach!</p>
     </div>
     <div class="techonlogy-area">
       <img src="img/android.png" alt="">
@@ -74,7 +85,53 @@
   </section>
 
   <section id="faq">
-    
+    <h2 class="plain-heading">FAQs</h2>
+    <div class="accordion-wrapper">
+      <div class="accordion-head">
+        <img src="img/chevron-down-red.png" alt="">
+        <p>What is GDSC?</p>
+      </div>
+      <p class="accordion-body accent-red">Google Developer Student Clubs (GDSC) are community groups for college and
+        university students interested in Google developer technologies. Students from all undergraduate or graduate
+        programs with an interest in growing as a developer are welcome. By joining a GDSC, students grow their
+        knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.
+      </p>
+    </div>
+    <div class="accordion-wrapper">
+      <div class="accordion-head">
+        <img src="img/chevron-down-green.png" alt="">
+        <p>What is GDSC?</p>
+      </div>
+      <p class="accordion-body accent-green">Google Developer Student Clubs (GDSC) are community groups for college and
+        university students interested in Google developer technologies. Students from all undergraduate or graduate
+        programs with an interest in growing as a developer are welcome. By joining a GDSC, students grow their
+        knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.
+      </p>
+    </div>
+    <div class="accordion-wrapper">
+      <div class="accordion-head">
+        <img src="img/chevron-down-blue.png" alt="">
+        <p>How can you become a part of GDSC ?</p>
+      </div>
+      <p class="accordion-body accent-blue">We conduct an annual team recruitment process. The details of recruitment
+        are posted online a few weeks prior. It’s a two step process involving form filling and personal interview.
+        Students acing both rounds are selected to be the part of the core team.</p>
+    </div>
+    <div class="accordion-wrapper">
+      <div class="accordion-head">
+        <img src="img/chevron-down-yellow.png" alt="">
+        <p>How is DSC related to Google?</p>
+      </div>
+      <p class="accordion-body accent-yellow">A GDSC Lead fills a lot of shoes. He works with the university to build
+        the club, recruit the core team, host workshops, build projects, collaborate with local partners.</p>
+    </div>
+    <div class="accordion-wrapper">
+      <div class="accordion-head">
+        <img src="img/chevron-down-red.png" alt="">
+        <p>How to reach us?</p>
+      </div>
+      <p class="accordion-body accent-red">Mail us at "dsc.rknec@gmail.com"</p>
+    </div>
   </section>
 </body>
 
