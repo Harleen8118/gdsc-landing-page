@@ -191,6 +191,47 @@ header {
   height: 300px;
 }
 
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 100px 50px;
+}
+
+.stat-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 20px;
+}
+
+.stat-circle::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  background-image: url(img/circle.png);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.stat-circle strong {
+  color: #5F5F5F;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.stat-circle p {
+  color: #353535;
+  font-weight: 500;
+  font-size: 22px;
+  width: 200px;
+}
+
 /* Technologies */
 #technologies {
   display: flex;
